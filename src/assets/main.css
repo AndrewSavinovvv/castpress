@@ -1,0 +1,24 @@
+body {
+    padding:0;
+    margin:0;
+    h1,h2,h3,h4,h5,h6,p,h1,h2,h3,h4,h5,h6{
+        padding:0;
+        margin:0;
+    }
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 1440px) {
+        max-width: 1248px;
+    }
+}
+.container2 {
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: 670px) {
+        max-width: 670px;
+    }
+}
